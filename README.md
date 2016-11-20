@@ -8,7 +8,7 @@
 In Lua all module's functions are objects retained in memory that consume RAM; various tecniques are available to discard a function code after use, e.g.:
 
   * [how-do-i-minimise-the-footprint-of-running-application](https://nodemcu.readthedocs.io/en/dev/en/lua-developer-faq/#how-do-i-minimise-the-footprint-of-running-application)
-  * [flasmodule](http://www.esp8266.com/viewtopic.php?f=19&t=1940)
+  * [flashmodule](http://www.esp8266.com/viewtopic.php?f=19&t=1940)
   * [volatile modules](http://www.esp8266.com/viewtopic.php?f=24&t=3311&start=10)
 
 Some tecnique (like load a function from a file and execute it *on-the-fly* causing unload after return) are useful for a single exposed function in a file;
